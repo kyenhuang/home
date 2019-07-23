@@ -46,11 +46,6 @@
     <content type="text"><![CDATA[博客包含的类别]]></content>
   </entry>
   <entry>
-    <title><![CDATA[关于我]]></title>
-    <url>%2Fabout%2Findex.html</url>
-    <content type="text"><![CDATA[自我介绍。]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[标签]]></title>
     <url>%2Ftags%2Findex.html</url>
     <content type="text"></content>
@@ -59,5 +54,10 @@
     <title><![CDATA[test_new_page]]></title>
     <url>%2Ftest-new-page%2Findex.html</url>
     <content type="text"><![CDATA[这个是测试 Hexo new page的使用方法的。]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[关于我]]></title>
+    <url>%2Fabout%2Findex.html</url>
+    <content type="text"><![CDATA[自我介绍。]]></content>
   </entry>
 </search>
