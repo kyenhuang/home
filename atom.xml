@@ -5,9 +5,9 @@
   <subtitle>知足常乐，不失进去！</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://kyenhuang.github.io/"/>
   <updated>2019-04-24T06:42:29.927Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://kyenhuang.github.io/</id>
   
   <author>
     <name>Kyen</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Django学习</title>
-    <link href="http://yoursite.com/2019/04/24/Django%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://yoursite.com/2019/04/24/Django学习/</id>
+    <link href="https://kyenhuang.github.io/2019/04/24/Django%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://kyenhuang.github.io/2019/04/24/Django学习/</id>
     <published>2019-04-24T02:05:56.000Z</published>
     <updated>2019-04-24T06:42:29.927Z</updated>
     
@@ -35,14 +35,14 @@
     </summary>
     
     
-      <category term="web 开发" scheme="http://yoursite.com/tags/web-%E5%BC%80%E5%8F%91/"/>
+      <category term="web 开发" scheme="https://kyenhuang.github.io/tags/web-%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
   <entry>
     <title>Plantuml使用教程</title>
-    <link href="http://yoursite.com/2019/04/23/Plantuml%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
-    <id>http://yoursite.com/2019/04/23/Plantuml使用教程/</id>
+    <link href="https://kyenhuang.github.io/2019/04/23/Plantuml%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <id>https://kyenhuang.github.io/2019/04/23/Plantuml使用教程/</id>
     <published>2019-04-23T01:04:21.000Z</published>
     <updated>2019-04-24T01:30:38.485Z</updated>
     
@@ -57,17 +57,17 @@
     
     </summary>
     
-      <category term="有关设计" scheme="http://yoursite.com/categories/%E6%9C%89%E5%85%B3%E8%AE%BE%E8%AE%A1/"/>
+      <category term="有关设计" scheme="https://kyenhuang.github.io/categories/%E6%9C%89%E5%85%B3%E8%AE%BE%E8%AE%A1/"/>
     
     
-      <category term="Plantuml教程" scheme="http://yoursite.com/tags/Plantuml%E6%95%99%E7%A8%8B/"/>
+      <category term="Plantuml教程" scheme="https://kyenhuang.github.io/tags/Plantuml%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>Categories的使用</title>
-    <link href="http://yoursite.com/2019/04/22/test-new/"/>
-    <id>http://yoursite.com/2019/04/22/test-new/</id>
+    <link href="https://kyenhuang.github.io/2019/04/22/test-new/"/>
+    <id>https://kyenhuang.github.io/2019/04/22/test-new/</id>
     <published>2019-04-22T02:37:56.000Z</published>
     <updated>2019-04-22T03:23:46.779Z</updated>
     
@@ -83,17 +83,17 @@
     
     </summary>
     
-      <category term="web 前段" scheme="http://yoursite.com/categories/web-%E5%89%8D%E6%AE%B5/"/>
+      <category term="web 前段" scheme="https://kyenhuang.github.io/categories/web-%E5%89%8D%E6%AE%B5/"/>
     
     
-      <category term="JQuery" scheme="http://yoursite.com/tags/JQuery/"/>
+      <category term="JQuery" scheme="https://kyenhuang.github.io/tags/JQuery/"/>
     
   </entry>
   
   <entry>
     <title>欢迎来到我的博客</title>
-    <link href="http://yoursite.com/2019/04/19/hello-world/"/>
-    <id>http://yoursite.com/2019/04/19/hello-world/</id>
+    <link href="https://kyenhuang.github.io/2019/04/19/hello-world/"/>
+    <id>https://kyenhuang.github.io/2019/04/19/hello-world/</id>
     <published>2019-04-19T07:42:16.741Z</published>
     <updated>2019-04-22T02:18:13.705Z</updated>
     
