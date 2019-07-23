@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://yoursite.com/2019/04/24/Django%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2019-04-24T06:42:29.927Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/04/23/Plantuml%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</loc>
+    
+    <lastmod>2019-04-24T01:30:38.485Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/04/22/test-new/</loc>
+    
+    <lastmod>2019-04-22T03:23:46.779Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2019-04-22T03:22:39.582Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    
+    <lastmod>2019-04-22T03:17:47.789Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2019-04-22T03:11:54.555Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/test-new-page/index.html</loc>
+    
+    <lastmod>2019-04-22T02:42:22.261Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/04/19/hello-world/</loc>
+    
+    <lastmod>2019-04-22T02:18:13.705Z</lastmod>
+    
+  </url>
+  
+</urlset>
