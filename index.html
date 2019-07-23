@@ -274,6 +274,190 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/23/Plantuml使用教程/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Kyen">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/desktop02.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="我的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/04/23/Plantuml使用教程/" itemprop="url">Plantuml使用教程</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-04-23T10:04:21+09:00">
+                2019-04-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/有关设计/" itemprop="url" rel="index">
+                    <span itemprop="name">有关设计</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本文介绍如何使用Plantuml进行有关设计。<br>编写本文的目的是记录个人学习PlantUML的过程，一部知识来源于官网。<br>以及在学习过程中遇到问题和解决方案。</p>
+<h1 id="什么是PlantUML？"><a href="#什么是PlantUML？" class="headerlink" title="什么是PlantUML？"></a>什么是PlantUML？</h1><p>PlantUML是一个快速创建UML图形的组件。<br>PlantUML支持的图像有：</p>
+<ul>
+<li>Squence Diagram</li>
+<li>Class Diagram</li>
+<li>Use Case Diagram</li>
+<li>Activity Diagram</li>
+<li>Component Diagram</li>
+<li>State Diagram</li>
+<li>Object Diagram</li>
+</ul>
+<h1 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h1><ul>
+<li><p>顺序图的制作和使用<br>简单的示例（-&gt; , –&gt; , &lt;–）</p>
+<ol>
+<li>创建以wsd结尾的文件</li>
+<li>文章以@startuml开始，以@enduml结束这是固定的</li>
+<li><p>title用于创建标题，后边留一个空格</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">@startum</span><br><span class="line">title 顺序图</span><br><span class="line">actor User #Green</span><br><span class="line">User -&gt; Alice</span><br><span class="line">Alice -&gt; Bob: 认证请求</span><br><span class="line">Bob --&gt; Alice: 认证消息的回复</span><br><span class="line">Alic --&gt; User: 返回消息</span><br><span class="line">@enduml</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>申明参与者的关键字<br>actor, boundary, control, entity, database,collections<br>关键字as用于重命名</p>
+</li>
+<li><p>注释用’开头， 多行注释用/‘’/</p>
+</li>
+<li><p>&lt;&gt;表示左右实心的箭头</p>
+</li>
+<li><p>&lt;||&gt;表示左右空心箭头</p>
+</li>
+<li><p>o表示另行空心箭头</p>
+</li>
+<li><p>*表示菱形实行箭头</p>
+</li>
+<li><p>autonumuber对消息序列编号</p>
+</li>
+<li><p>Header和Footer的设计</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">header Page Header</span><br><span class="line">footer Page %page% of %lastpage%</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/22/test-new/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -587,7 +771,7 @@
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -598,7 +782,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">categories</span>
                 </a>
               </div>
@@ -609,7 +793,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>
