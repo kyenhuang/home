@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="IT 技术,">
 
 
 
@@ -81,17 +81,18 @@
 
 
 
-<meta name="description" content="这个博客是由 Hexo创建! 比较快捷， 可以让你把经理集中在写作上。 点击 documentation 可以查看使用文档.  Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;  More info: Writing Run server1$ hexo server  More info: Server Generate static f">
+<meta name="description" content="Playbook介绍 Playbooks 可用于声明配置,更强大的地方在于,在 playbooks 中可以编排有序的执行过程,甚&amp;gt;至于做到在多组机器间,来回有序的执行特别指定的步骤.并且可以同步或异步的发起任务. playbook 由一个或多个 ‘plays’ 组成.它的内容是一个以 ‘plays’ 为元素的列表. 在 play 之中,一组机器被映射为定义好的角色.在 ansible 中,p">
+<meta name="keywords" content="IT 技术">
 <meta property="og:type" content="article">
-<meta property="og:title" content="欢迎来到我的博客">
-<meta property="og:url" content="https://kyenhuang.github.io/2019/04/19/hello-world/index.html">
+<meta property="og:title" content="Ansible Playbook">
+<meta property="og:url" content="https://kyenhuang.github.io/2019/07/25/Ansible-Playbook/index.html">
 <meta property="og:site_name" content="我的博客">
-<meta property="og:description" content="这个博客是由 Hexo创建! 比较快捷， 可以让你把经理集中在写作上。 点击 documentation 可以查看使用文档.  Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;  More info: Writing Run server1$ hexo server  More info: Server Generate static f">
+<meta property="og:description" content="Playbook介绍 Playbooks 可用于声明配置,更强大的地方在于,在 playbooks 中可以编排有序的执行过程,甚&amp;gt;至于做到在多组机器间,来回有序的执行特别指定的步骤.并且可以同步或异步的发起任务. playbook 由一个或多个 ‘plays’ 组成.它的内容是一个以 ‘plays’ 为元素的列表. 在 play 之中,一组机器被映射为定义好的角色.在 ansible 中,p">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-04-22T02:18:13.705Z">
+<meta property="og:updated_time" content="2019-07-25T06:49:21.334Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="欢迎来到我的博客">
-<meta name="twitter:description" content="这个博客是由 Hexo创建! 比较快捷， 可以让你把经理集中在写作上。 点击 documentation 可以查看使用文档.  Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;  More info: Writing Run server1$ hexo server  More info: Server Generate static f">
+<meta name="twitter:title" content="Ansible Playbook">
+<meta name="twitter:description" content="Playbook介绍 Playbooks 可用于声明配置,更强大的地方在于,在 playbooks 中可以编排有序的执行过程,甚&amp;gt;至于做到在多组机器间,来回有序的执行特别指定的步骤.并且可以同步或异步的发起任务. playbook 由一个或多个 ‘plays’ 组成.它的内容是一个以 ‘plays’ 为元素的列表. 在 play 之中,一组机器被映射为定义好的角色.在 ansible 中,p">
 
 
 
@@ -121,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="https://kyenhuang.github.io/2019/04/19/hello-world/">
+  <link rel="canonical" href="https://kyenhuang.github.io/2019/07/25/Ansible-Playbook/">
 
 
 
 
 
-  <title>欢迎来到我的博客 | 我的博客</title>
+  <title>Ansible Playbook | 我的博客</title>
   
 
 
@@ -296,7 +297,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://kyenhuang.github.io/2019/04/19/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https://kyenhuang.github.io/2019/07/25/Ansible-Playbook/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Kyen">
@@ -313,7 +314,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">欢迎来到我的博客</h1>
+          <h1 class="post-title" itemprop="name headline">Ansible Playbook</h1>
         
 
         <div class="post-meta">
@@ -325,8 +326,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-04-19T16:42:16+09:00">
-                2019-04-19
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-07-25T15:08:26+09:00">
+                2019-07-25
               </time>
             
 
@@ -363,19 +364,41 @@
       
 
       
-        <p> 这个博客是由 <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>创建! 比较快捷， 可以让你把经理集中在写作上。<br> 点击 <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> 可以查看使用文档. </p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+        <h1 id="Playbook介绍"><a href="#Playbook介绍" class="headerlink" title="Playbook介绍"></a>Playbook介绍</h1><hr>
+<p>Playbooks 可用于声明配置,更强大的地方在于,在 playbooks 中可以编排有序的执行过程,甚&gt;至于做到在多组机器间,来回有序的执行特别指定的步骤.并且可以同步或异步的发起任务.</p>
+<p>playbook 由一个或多个 ‘plays’ 组成.它的内容是一个以 ‘plays’ 为元素的列表.</p>
+<p>在 play 之中,一组机器被映射为定义好的角色.在 ansible 中,play 的内容,被称为 tasks,即任务.在基本层次的应用中,一个任务是一个对 ansible 模块的调用,这在前面章节学习过.</p>
+<h1 id="playbook基础"><a href="#playbook基础" class="headerlink" title="playbook基础"></a>playbook基础</h1><p>##主机与用户<br>你可以为 playbook 中的每一个 play,个别地选择操作的目标机器是哪些,以哪个用户身份去完成要执行的步骤（called tasks）.</p>
+<p>hosts 行的内容是一个或多个组或主机的 patterns,以逗号为分隔符,remote_user 就是账户名:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">- hosts: webservers</span><br><span class="line">  remote_user: root</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>再者,在每一个 task 中,可以定义自己的远程用户:<br>执行test connection使用用户yourname</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">- hosts: webservers</span><br><span class="line">  remote_user: root</span><br><span class="line">  tasks:</span><br><span class="line">    - name: test connection</span><br><span class="line">      ping:</span><br><span class="line">      remote_user: yourname</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>你也可以登陆后,sudo 到不同的用户身份,而不是使用 root:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">- hosts: webservers</span><br><span class="line">  remote_user: yourname</span><br><span class="line">  sudo: yes</span><br><span class="line">  sudo_user: postgres</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h2 id="Tasks-列表"><a href="#Tasks-列表" class="headerlink" title="Tasks 列表"></a>Tasks 列表</h2><p>每一个 play 包含了一个 task 列表（任务列表）.一个 task 在其所对应的所有主机上（通过 host pattern 匹配的所有主机）执行完毕之后,下一个 task 才会执行.有一点需要明白的是（很重要）,在一个 play 之中,所有 hosts 会获取相同的任务指令,这是 play 的一个目的所在,也就是将一组选出的 hosts 映射到 task.</p>
+<p>下面是一种基本的 task 的定义,service moudle 使用 key=value 格式的参数,这也是大多数 module 使用的参数格式:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">tasks:</span><br><span class="line">  - name: make sure apache is running</span><br><span class="line">    service: name=httpd state=running</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<p>使用 command module 和 shell module 时,我们需要关心返回码信息,如果有一条命令,它的成功执行的返回码不是0, 你或许希望这样做:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">tasks:</span><br><span class="line">  - name: run this command and ignore the result</span><br><span class="line">    shell: /usr/bin/somecommand</span><br><span class="line">    ignore_errors: True</span><br></pre></td></tr></table></figure>
+
+<h2 id="Handlers-在发生改变时执行的操作"><a href="#Handlers-在发生改变时执行的操作" class="headerlink" title="Handlers: 在发生改变时执行的操作"></a>Handlers: 在发生改变时执行的操作</h2><p>这里有一个例子,当一个文件的内容被改动时,重启两个 services:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">- name: template configuration file</span><br><span class="line">  template: src=template.j2 dest=/etc/foo.conf</span><br><span class="line">  notify:</span><br><span class="line">     - restart memcached</span><br><span class="line">     - restart apache</span><br></pre></td></tr></table></figure>
+
+<p>Handlers 也是一些 task 的列表,通过名字来引用,它们和一般的 task 并没有什么区别.Handlers 是由通知者进行 notify, 如果没有被 notify,handlers 不会执行.不管有多少个通知者进行了 notify,等到 play 中的所有 task 执行完成之后,handlers 也只会被执行一次.</p>
+<p>这里是一个 handlers 的示例:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">handlers:</span><br><span class="line">    - name: restart memcached</span><br><span class="line">      service:  name=memcached state=restarted</span><br><span class="line">    - name: restart apache</span><br><span class="line">      service: name=apache state=restarted</span><br></pre></td></tr></table></figure>
+
+<h2 id="执行一个-playbook"><a href="#执行一个-playbook" class="headerlink" title="执行一个 playbook"></a>执行一个 playbook</h2><p>既然现在你已经学习了 playbook 的语法,那要如何运行一个 playbook 呢？这很简单,这里的示例是并行的运行 playbook,并行的级别 是10（译者注:是10个并发的进程？）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ansible-playbook playbook.yml -f 10</span><br></pre></td></tr></table></figure>
+
+<h2 id="提示与技巧"><a href="#提示与技巧" class="headerlink" title="提示与技巧"></a>提示与技巧</h2><p>在执行一个 playbook 之前,想看看这个 playbook 的执行会影响到哪些 hosts,你可以这样做:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ansible-playbook playbook.yml --list-hosts</span><br></pre></td></tr></table></figure>
+
+<h1 id="Playbook-角色-Roles-和-Include-语句"><a href="#Playbook-角色-Roles-和-Include-语句" class="headerlink" title="Playbook 角色(Roles) 和 Include 语句"></a>Playbook 角色(Roles) 和 Include 语句</h1><h2 id="Roles"><a href="#Roles" class="headerlink" title="Roles"></a>Roles</h2><p>你现在已经学过 tasks 和 handlers，那怎样组织 playbook 才是最好的方式呢？简单的回答就是：使用 roles ! Roles 基于一个已知的文件结构，去自动的加载某些 vars_files，tasks 以及 handlers。基于 roles 对内容进行分组，使得我们可以容易地与其他用户分享 roles 。</p>
 
       
     </div>
@@ -402,6 +425,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/IT-技术/" rel="tag"># IT 技术</a>
+          
+        </div>
+      
 
       
       
@@ -411,15 +440,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2019/07/25/how-to-use-ansible/" rel="next" title>
+                <i class="fa fa-chevron-left"></i> 
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/04/22/test-new/" rel="prev" title="Categories的使用">
-                Categories的使用 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -588,7 +617,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Playbook介绍"><span class="nav-number">1.</span> <span class="nav-text">Playbook介绍</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#playbook基础"><span class="nav-number">2.</span> <span class="nav-text">playbook基础</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Tasks-列表"><span class="nav-number">2.1.</span> <span class="nav-text">Tasks 列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Handlers-在发生改变时执行的操作"><span class="nav-number">2.2.</span> <span class="nav-text">Handlers: 在发生改变时执行的操作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#执行一个-playbook"><span class="nav-number">2.3.</span> <span class="nav-text">执行一个 playbook</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#提示与技巧"><span class="nav-number">2.4.</span> <span class="nav-text">提示与技巧</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Playbook-角色-Roles-和-Include-语句"><span class="nav-number">3.</span> <span class="nav-text">Playbook 角色(Roles) 和 Include 语句</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Roles"><span class="nav-number">3.1.</span> <span class="nav-text">Roles</span></a></li></ol></li></ol></div>
             
 
           </div>
